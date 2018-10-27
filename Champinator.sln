@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2048
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Champinator.Android", "Champinator\Champinator.Android\Champinator.Android.csproj", "{CFA5F44B-9F94-47D9-A6F8-B6F5622312E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Champinator", "Champinator\Champinator\Champinator.csproj", "{192FC091-6885-494F-A524-E2999ECCAB0C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFA5F44B-9F94-47D9-A6F8-B6F5622312E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFA5F44B-9F94-47D9-A6F8-B6F5622312E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFA5F44B-9F94-47D9-A6F8-B6F5622312E7}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{CFA5F44B-9F94-47D9-A6F8-B6F5622312E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFA5F44B-9F94-47D9-A6F8-B6F5622312E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFA5F44B-9F94-47D9-A6F8-B6F5622312E7}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{192FC091-6885-494F-A524-E2999ECCAB0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{192FC091-6885-494F-A524-E2999ECCAB0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{192FC091-6885-494F-A524-E2999ECCAB0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{192FC091-6885-494F-A524-E2999ECCAB0C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9309CA57-A5BD-47CC-B7E1-B0DD8499FD6E}
+	EndGlobalSection
+EndGlobal
