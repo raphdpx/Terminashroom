@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,7 +21,12 @@ namespace Champinator
             var photo = await Plugin.Media.CrossMedia.Current.TakePhotoAsync(new Plugin.Media.Abstractions.StoreCameraMediaOptions() { });
 
             if (photo != null)
-                PhotoImage.Source = ImageSource.FromStream(() => { return photo.GetStream(); });
+            {
+                var stream = photo.GetStream();
+                var imageS = ImageSource.FromStream(() => { return photo.GetStream(); });
+                Data d = new Data(ref stream,ref imageS);
+                await Navigation.PushModalAsync(d);
+            }
         }
     }
 }
